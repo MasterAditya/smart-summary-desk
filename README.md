@@ -1,97 +1,106 @@
-🧠 InsightLens
+<!-- Hero Banner -->
+<p align="center">
+  <img src="https://via.placeholder.com/1200x400.png?text=InsightLens+Dashboard+Preview" alt="InsightLens Hero Banner" width="100%"/>
+</p>
 
-AI-Powered Text Analysis & Summarization Dashboard 
+<!-- Project Title -->
+<h1 align="center">✨ InsightLens ✨</h1>
 
+<p align="center">
+  <strong>AI-Powered Text Analysis & Summarization Dashboard</strong>
+</p>
 
+<!-- Badges -->
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/Deployed%20on-Vercel-black?style=flat&logo=vercel" alt="Vercel"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Frontend-React%20%2B%20TypeScript-61DAFB?logo=react" alt="Frontend"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20FastAPI-green?logo=node.js" alt="Backend"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"/></a>
+</p>
 
+---
 
+## 🌟 Overview
 
+**InsightLens** is a sleek, AI-powered web app that allows users to **analyze**, **summarize**, and **extract insights** from large volumes of text with ease.  
 
+Whether you're a **student**, **researcher**, or **professional**, InsightLens turns lengthy documents into **actionable knowledge** in seconds.
 
+---
 
-📌 Overview
+## ✨ Features at a Glance
 
-InsightLens is an AI-powered web application that helps professionals and students quickly analyze and summarize large volumes of text.
-Paste text, upload PDFs, or provide URLs to instantly receive:
+- 🧠 **Multi-Level Summarization** — Choose between short, medium, or detailed summaries.  
+- 💬 **Sentiment Analysis** — Positive, neutral, or negative with **confidence scores**.  
+- 🔑 **Keyword Extraction** — Top 10 relevant keywords for quick topic grasp.  
+- 📂 **Multiple Input Options** — Paste text, upload PDFs, or enter URLs.  
+- 🕓 **Local History** — Persistent history of previous analyses.  
+- 🌓 **Dark / Light Mode** — A modern, responsive UI that works on all devices.
 
-📝 Summaries — short, medium, or detailed
+---
 
-💬 Sentiment Analysis — positive, neutral, or negative with confidence scores
+## 🛠 Tech Stack
 
-🔑 Keyword Extraction — top 10 most relevant keywords
+| Layer        | Technologies                                                  |
+|-------------|-----------------------------------------------------------------|
+| **Frontend** | React • TypeScript • TailwindCSS • shadcn-ui                   |
+| **Backend**  | Node.js *(or FastAPI alternative)*                             |
+| **Deployment** | Vercel                                                    |
+| **Storage** | Local Storage / Mock DB for history                             |
 
-This tool is designed for speed, clarity, and actionable insights.
+---
 
-✨ Features
+## 🚀 Live Demo
 
-📂 Analyze text from multiple sources — copy-paste, PDF upload, or URL
+👉 [**Try InsightLens**](#)  
+*(Replace `#` with your deployed app URL)*
 
-🧠 Summarization at three levels of detail
+---
 
-💬 Sentiment analysis with confidence scores
+## 🧰 Installation
 
-🔑 Keyword extraction and ranking
+Set up InsightLens locally in just a few steps 👇
 
-🕓 Analysis history stored locally (persistent)
-
-🌓 Dark/Light mode toggle for better UX
-
-💻 Fully responsive design for desktop and mobile
-
-🛠 Tech Stack
-Layer	Technology
-Frontend	React, TypeScript, TailwindCSS, shadcn-ui
-Backend	Node.js (FastAPI can be used as an alternative)
-Deployment	Vercel
-Storage	Local storage / mock database for history
-🚀 Live Demo
-
-👉 Try InsightLens
- (Add your live link here)
-
-🧰 Installation (Local Development)
-# Clone the repository
+```bash
+# 1. Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Navigate to the project directory
+# 2. Navigate into the project
 cd insightlens
 
-# Install dependencies
+# 3. Install dependencies
 npm install
 
-# Start the development server
+# 4. Start the development server
 npm run dev
+Visit 👉 http://localhost:3000
 
+🧭 Roadmap
+Here’s what’s coming next 🚀
 
-The app should now be running on http://localhost:3000
-.
+🔌 Integration with OpenAI, Mistral, or Hugging Face for smarter summarization
 
-🧭 Roadmap / Future Improvements
+📄 Export analysis as PDF reports
 
-🔌 Integrate real LLM APIs (OpenAI, Mistral, or Hugging Face) for advanced summarization
+🔐 User authentication & personalized storage
 
-📄 Export summaries to PDF for easy sharing and reporting
-
-🔐 Add user authentication with personalized history storage
-
-🌍 Support for multiple languages
+🌍 Multi-language support
 
 🤝 Contributing
+Contributions are welcome and encouraged 🙌
 
-Contributions are welcome!
-If you’d like to contribute:
+🍴 Fork the repository
 
-Fork the repo
+🌿 Create a feature branch → feature/amazing-feature
 
-Create your feature branch (git checkout -b feature/awesome-feature)
+🧪 Commit your changes
 
-Commit your changes (git commit -m 'Add awesome feature')
+📤 Push to your branch
 
-Push to the branch (git push origin feature/awesome-feature)
-
-Open a Pull Request
+🔁 Open a Pull Request
 
 📄 License
+This project is licensed under the MIT License.
+See the LICENSE file for more details.
 
-This project is licensed under the MIT License
-.
+<p align="center"> <img src="https://img.shields.io/badge/Built%20with-💜%20React%20%7C%20TypeScript%20%7C%20AI-6A5ACD?style=for-the-badge" alt="Built With"/> </p> <p align="center"> Crafted with precision & creativity ✨ </p> ```
