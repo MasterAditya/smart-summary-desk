@@ -1,73 +1,64 @@
-# Welcome to your Lovable project
+InsightLens
+Project Overview
 
-## Project info
+InsightLens is an AI-powered text analysis and summarization dashboard designed for professionals and students. Users can paste text, upload PDFs, or provide URLs to get:
 
-**URL**: https://lovable.dev/projects/2667c5fe-a407-42fc-96d6-144d9f3fbf87
+Smart summaries (short, medium, detailed)
 
-## How can I edit this code?
+Sentiment analysis (positive, neutral, negative with confidence scores)
 
-There are several ways of editing your application.
+Keyword extraction (top 10 most relevant keywords)
 
-**Use Lovable**
+The app helps users quickly digest large amounts of information and extract actionable insights.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2667c5fe-a407-42fc-96d6-144d9f3fbf87) and start prompting.
+Features
 
-Changes made via Lovable will be committed automatically to this repo.
+Analyze text from multiple sources: copy-paste, PDF upload, or URL
 
-**Use your preferred IDE**
+Summarization at three levels of detail
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Sentiment analysis with confidence scores
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Keyword extraction and ranking
 
-Follow these steps:
+History of recent analyses (persistent locally)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+Dark/Light mode toggle for better UX
+
+Responsive design for desktop and mobile
+
+Tech Stack
+
+Frontend: React, TypeScript, TailwindCSS, shadcn-ui
+
+Backend: Node.js (or FastAPI if you replace backend)
+
+Deployment: Vercel
+
+Other Tools: Local storage / mock database for history
+
+Deployment
+
+The app is deployed on Vercel and can be accessed here:
+Live Demo
+
+Installation (for local development)
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd insightlens
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+Future Improvements
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Integrate real LLM API (OpenAI, Mistral, or HuggingFace) for smarter summarization
 
-**Use GitHub Codespaces**
+PDF export of summaries and reports
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2667c5fe-a407-42fc-96d6-144d9f3fbf87) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+User authentication and personalized history storage
