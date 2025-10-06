@@ -1,6 +1,6 @@
 🧠 InsightLens
 
-AI-Powered Text Analysis & Summarization Dashboard
+AI-Powered Text Analysis & Summarization Dashboard 
 
 
 
