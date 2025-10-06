@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+
+footer:has-text("Powered by Lovable AI") {
+  display: none !important;
+}
+
