@@ -54,9 +54,21 @@ Whether you're a **student**, **researcher**, or **professional**, InsightLens t
 
 ---
 
-## 🚀 Getting Started
+# InsightLens
 
-Follow these simple steps to set up **InsightLens** on your local machine:
+## Project Overview
+**InsightLens** is an AI-powered text analysis and summarization dashboard.  
+Users can paste text, upload PDFs, or enter URLs to get:  
+- Smart summaries (short, medium, detailed)  
+- Sentiment analysis (positive, neutral, negative with confidence scores)  
+- Keyword extraction (top 10 relevant keywords)  
+
+This tool helps users quickly digest large amounts of information and extract actionable insights.
+
+---
+
+## Installation (Local Development)
+Run the following commands in your terminal:
 
 ```bash
 # 1. Clone the repository
@@ -70,12 +82,10 @@ npm install
 
 # 4. Start the development server
 npm run dev
-👉 Once it’s running, visit http://localhost:3000 in your browser.
 
-🧭 Roadmap
-Here’s a glimpse of what’s ahead ✨
-
-🔌 AI Integrations — OpenAI, Mistral, Hugging Face for smarter summarization
+# Visit http://localhost:3000 in your browser
+Roadmap
+🔌 AI Integrations — OpenAI, Mistral, HuggingFace for smarter summarization
 
 📄 PDF Exports — Generate and download full analysis reports
 
@@ -83,21 +93,21 @@ Here’s a glimpse of what’s ahead ✨
 
 🌍 Multi-language support — Expanding global accessibility
 
-🤝 Contributing
-Contributions are welcome and appreciated 🙌
+Contributing
+Contributions are welcome!
 
-🍴 Fork the repository
+Fork the repository
 
-🌿 Create a new feature branch → feature/amazing-feature
+Create a feature branch → feature/amazing-feature
 
-🧪 Commit your changes
+Commit your changes
 
-📤 Push to your branch
+Push your branch
 
-🔁 Open a Pull Request
+Open a Pull Request
 
-📄 License
+License
 This project is licensed under the MIT License.
 See the LICENSE file for details.
 
-<p align="center"> <img src="https://img.shields.io/static/v1?label=Built%20With&message=React%20%7C%20TypeScript%20%7C%20AI&color=6A5ACD&style=for-the-badge&logo=react" alt="Built With"/> </p> <p align="center"> 💜 <strong>Made with love, logic & a dash of AI magic ✨</strong> </p> ```
+<p align="center"> <img src="https://img.shields.io/static/v1?label=Built%20With&message=React%20%7C%20TypeScript%20%7C%20AI&color=6A5ACD&style=for-the-badge&logo=react" alt="Built With"/> </p> <p align="center">💜 <strong>Made with love, logic & a dash of AI magic ✨</strong></p> ```
