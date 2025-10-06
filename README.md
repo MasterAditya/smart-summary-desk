@@ -1,48 +1,55 @@
-InsightLens
-Project Overview
+🧠 InsightLens
 
-InsightLens is an AI-powered text analysis and summarization dashboard designed for professionals and students. Users can paste text, upload PDFs, or provide URLs to get:
+AI-Powered Text Analysis & Summarization Dashboard
 
-Smart summaries (short, medium, detailed)
 
-Sentiment analysis (positive, neutral, negative with confidence scores)
 
-Keyword extraction (top 10 most relevant keywords)
 
-The app helps users quickly digest large amounts of information and extract actionable insights.
 
-Features
 
-Analyze text from multiple sources: copy-paste, PDF upload, or URL
 
-Summarization at three levels of detail
 
-Sentiment analysis with confidence scores
+📌 Overview
 
-Keyword extraction and ranking
+InsightLens is an AI-powered web application that helps professionals and students quickly analyze and summarize large volumes of text.
+Paste text, upload PDFs, or provide URLs to instantly receive:
 
-History of recent analyses (persistent locally)
+📝 Summaries — short, medium, or detailed
 
-Dark/Light mode toggle for better UX
+💬 Sentiment Analysis — positive, neutral, or negative with confidence scores
 
-Responsive design for desktop and mobile
+🔑 Keyword Extraction — top 10 most relevant keywords
 
-Tech Stack
+This tool is designed for speed, clarity, and actionable insights.
 
-Frontend: React, TypeScript, TailwindCSS, shadcn-ui
+✨ Features
 
-Backend: Node.js (or FastAPI if you replace backend)
+📂 Analyze text from multiple sources — copy-paste, PDF upload, or URL
 
-Deployment: Vercel
+🧠 Summarization at three levels of detail
 
-Other Tools: Local storage / mock database for history
+💬 Sentiment analysis with confidence scores
 
-Deployment
+🔑 Keyword extraction and ranking
 
-The app is deployed on Vercel and can be accessed here:
-Live Demo
+🕓 Analysis history stored locally (persistent)
 
-Installation (for local development)
+🌓 Dark/Light mode toggle for better UX
+
+💻 Fully responsive design for desktop and mobile
+
+🛠 Tech Stack
+Layer	Technology
+Frontend	React, TypeScript, TailwindCSS, shadcn-ui
+Backend	Node.js (FastAPI can be used as an alternative)
+Deployment	Vercel
+Storage	Local storage / mock database for history
+🚀 Live Demo
+
+👉 Try InsightLens
+ (Add your live link here)
+
+🧰 Installation (Local Development)
 # Clone the repository
 git clone <YOUR_GIT_URL>
 
@@ -52,13 +59,39 @@ cd insightlens
 # Install dependencies
 npm install
 
-# Start development server
+# Start the development server
 npm run dev
 
-Future Improvements
 
-Integrate real LLM API (OpenAI, Mistral, or HuggingFace) for smarter summarization
+The app should now be running on http://localhost:3000
+.
 
-PDF export of summaries and reports
+🧭 Roadmap / Future Improvements
 
-User authentication and personalized history storage
+🔌 Integrate real LLM APIs (OpenAI, Mistral, or Hugging Face) for advanced summarization
+
+📄 Export summaries to PDF for easy sharing and reporting
+
+🔐 Add user authentication with personalized history storage
+
+🌍 Support for multiple languages
+
+🤝 Contributing
+
+Contributions are welcome!
+If you’d like to contribute:
+
+Fork the repo
+
+Create your feature branch (git checkout -b feature/awesome-feature)
+
+Commit your changes (git commit -m 'Add awesome feature')
+
+Push to the branch (git push origin feature/awesome-feature)
+
+Open a Pull Request
+
+📄 License
+
+This project is licensed under the MIT License
+.
