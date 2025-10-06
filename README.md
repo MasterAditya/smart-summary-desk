@@ -54,9 +54,9 @@ Whether you're a **student**, **researcher**, or **professional**, InsightLens t
 
 ---
 
-## 🧰 Installation
+## 🚀 Getting Started
 
-Set up InsightLens locally in just a few steps 👇
+Follow these simple steps to set up **InsightLens** on your local machine:
 
 ```bash
 # 1. Clone the repository
@@ -70,25 +70,25 @@ npm install
 
 # 4. Start the development server
 npm run dev
-Visit 👉 http://localhost:3000
+👉 Once it’s running, visit http://localhost:3000 in your browser.
 
 🧭 Roadmap
-Here’s what’s coming next 🚀
+Here’s a glimpse of what’s ahead ✨
 
-🔌 Integration with OpenAI, Mistral, or Hugging Face for smarter summarization
+🔌 AI Integrations — OpenAI, Mistral, Hugging Face for smarter summarization
 
-📄 Export analysis as PDF reports
+📄 PDF Exports — Generate and download full analysis reports
 
-🔐 User authentication & personalized storage
+🔐 Authentication — Personalized dashboards & storage
 
-🌍 Multi-language support
+🌍 Multi-language support — Expanding global accessibility
 
 🤝 Contributing
-Contributions are welcome and encouraged 🙌
+Contributions are welcome and appreciated 🙌
 
 🍴 Fork the repository
 
-🌿 Create a feature branch → feature/amazing-feature
+🌿 Create a new feature branch → feature/amazing-feature
 
 🧪 Commit your changes
 
@@ -98,15 +98,6 @@ Contributions are welcome and encouraged 🙌
 
 📄 License
 This project is licensed under the MIT License.
-See the LICENSE file for more details.
+See the LICENSE file for details.
 
----
-
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=Built%20With&message=React%20%7C%20TypeScript%20%7C%20AI&color=6A5ACD&style=for-the-badge&logo=react" alt="Built With"/>
-</p>
-
-<p align="center">
-  💜 <strong>Made with love, logic & a dash of AI magic ✨</strong>
-</p>
-
+<p align="center"> <img src="https://img.shields.io/static/v1?label=Built%20With&message=React%20%7C%20TypeScript%20%7C%20AI&color=6A5ACD&style=for-the-badge&logo=react" alt="Built With"/> </p> <p align="center"> 💜 <strong>Made with love, logic & a dash of AI magic ✨</strong> </p> ```
