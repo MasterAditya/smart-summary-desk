@@ -1,7 +1,4 @@
-<!-- Hero Banner -->
-<p align="center">
-  <img src="https://via.placeholder.com/1200x400.png?text=InsightLens+Dashboard+Preview" alt="InsightLens Hero Banner" width="100%"/>
-</p>
+
 
 <!-- Project Title -->
 <h1 align="center">✨ InsightLens ✨</h1>
@@ -103,4 +100,13 @@ Contributions are welcome and encouraged 🙌
 This project is licensed under the MIT License.
 See the LICENSE file for more details.
 
-<p align="center"> <img src="https://img.shields.io/badge/Built%20with-💜%20React%20%7C%20TypeScript%20%7C%20AI-6A5ACD?style=for-the-badge" alt="Built With"/> </p> <p align="center"> Crafted with precision & creativity ✨ </p> ```
+---
+
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=Built%20With&message=React%20%7C%20TypeScript%20%7C%20AI&color=6A5ACD&style=for-the-badge&logo=react" alt="Built With"/>
+</p>
+
+<p align="center">
+  💜 <strong>Made with love, logic & a dash of AI magic ✨</strong>
+</p>
+
